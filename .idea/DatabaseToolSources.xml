@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DatabaseToolSources">
+    <data-source name="PostgreSQL_Connection" uuid="f2df4a53-51b6-426e-b55e-82a0c354e7b3" type="POSTGRES">
+      <base-info connect-type="DB_DEFAULT" product="PostgreSQL" version="16.3" major-version="16" minor-version="3" jdbc-name="PostgreSQL JDBC Driver" jdbc-version="42.6.0" jdbc-major-version="42" jdbc-minor-version="6" />
+      <user-name>postgres</user-name>
+      <choose-schema-mapping>
+        <introspection-scope>
+          <node negative="1">
+            <node kind="database" qname="Shrimpy" operator="@">
+              <node kind="schema">
+                <name qname="public" />
+              </node>
+            </node>
+            <node kind="database" qname="postgres" operator="@">
+              <node kind="schema">
+                <name qname="public" />
+              </node>
+            </node>
+          </node>
+        </introspection-scope>
+      </choose-schema-mapping>
+      <url>jdbc:postgresql://localhost:5432/Shrimpy</url>
+      <remarks />
+      <vm-options />
+      <driver-info id="postgresql" />
+      <ssh-properties enabled="false" />
+      <ssl-config enabled="false">
+        <uuid />
+        <caFile />
+        <clientCertificateFile />
+        <clientKeyFile />
+        <sslMode>REQUIRE</sslMode>
+      </ssl-config>
+    </data-source>
+  </component>
+</project>

@@ -1,0 +1,37 @@
+# Java/Spring-specific exclusions
+*.class
+*.jar
+*.war
+*.ear
+
+# Build output directories
+target/
+build/
+
+# Dependency directories
+.m2/
+.gradle/
+
+# Log files
+*.log
+
+# Configuration files with sensitive data (optional)
+application.properties
+application.yml
+.env
+
+# IntelliJ IDEA-specific exclusions
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Optional: Local runtime/temporary files
+*.swp
+*.swo
+*~
